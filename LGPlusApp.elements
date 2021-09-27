@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <RootNamespace>LGPlusApp</RootNamespace>
+    <ProjectGuid>{6BCAE525-51C9-400E-B04B-6862CAB3A44B}</ProjectGuid>
+    <OutputType>Executable</OutputType>
+    <AssemblyName>LGPlusApp</AssemblyName>
+    <Configuration Condition="'$(Configuration)' == ''">Release</Configuration>
+    <SDK>iOS</SDK>
+    <MangleTypeNames>True</MangleTypeNames>
+    <CreateAppBundle>True</CreateAppBundle>
+    <InfoPListFile>.\Resources\Info.plist</InfoPListFile>
+    <DefaultUses>RemObjects.Elements.RTL</DefaultUses>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <Optimize>False</Optimize>
+    <OutputPath>.\Bin\Debug</OutputPath>
+    <ConditionalDefines>DEBUG;TRACE;</ConditionalDefines>
+    <GenerateDebugInfo>True</GenerateDebugInfo>
+    <EnableAsserts>True</EnableAsserts>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>.\Bin\Release</OutputPath>
+    <GenerateDSym>True</GenerateDSym>
+    <CreateIPA>True</CreateIPA>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CoreGraphics" />
+    <Reference Include="Foundation" />
+    <Reference Include="UIKit" />
+    <Reference Include="rtl" />
+    <Reference Include="libToffee" />
+    <Reference Include="libElements" />
+    <RemoteProjectReference Include="github.com/mosh/ImportSolution/LGPlusButtons.elements:*">
+      <Private>True</Private>
+    </RemoteProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppDelegate.pas" />
+    <Content Include="Resources\Info.plist" />
+    <AssetCatalog Include="Resources\Images.xcassets">
+      <AppIcon>AppIcon</AppIcon>
+    </AssetCatalog>
+    <Xib Include="Resources\LaunchScreen.xib" />
+    <Compile Include="MainWindowViewController.pas" />
+    <Xib Include="MainWindowViewController.xib" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\RemObjects Software\Elements\RemObjects.Elements.Toffee.targets" />
+</Project>
