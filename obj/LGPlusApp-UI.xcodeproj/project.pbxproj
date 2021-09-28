@@ -1,0 +1,207 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECCB00000000000000000002 /* CoreGraphics.framework */ = {isa = PBXBuildFile; fileRef = ECCB00000000000000000002 /* CoreGraphics.framework */; };
+		ECCB00000000000000000003 /* Foundation.framework */ = {isa = PBXBuildFile; fileRef = ECCB00000000000000000003 /* Foundation.framework */; };
+		ECCB00000000000000000004 /* UIKit.framework */ = {isa = PBXBuildFile; fileRef = ECCB00000000000000000004 /* UIKit.framework */; };
+		ECCB00000000000000000005 /* rtl.framework */ = {isa = PBXBuildFile; fileRef = ECCB00000000000000000005 /* rtl.framework */; };
+		ECCB00000000000000000006 /* Toffee.framework */ = {isa = PBXBuildFile; fileRef = ECCB00000000000000000006 /* Toffee.framework */; };
+		ECCB00000000000000000007 /* Elements.framework */ = {isa = PBXBuildFile; fileRef = ECCB00000000000000000007 /* Elements.framework */; };
+		ECCB00000000000000000008 /* LGPlusButtonsViewFramework.framework */ = {isa = PBXBuildFile; fileRef = ECCB00000000000000000008 /* LGPlusButtonsViewFramework.framework */; };
+		ECCB00000000000000000009 /* CoreFoundation.framework */ = {isa = PBXBuildFile; fileRef = ECCB00000000000000000009 /* CoreFoundation.framework */; };
+		ECCB0000000000000000000A /* UserNotifications.framework */ = {isa = PBXBuildFile; fileRef = ECCB0000000000000000000A /* UserNotifications.framework */; };
+		ECCB0000000000000000000C /* LaunchScreen.xib */ = {isa = PBXBuildFile; fileRef = ECCB0000000000000000000C /* LaunchScreen.xib */; };
+		ECCB0000000000000000000D /* MainWindowViewController.xib */ = {isa = PBXBuildFile; fileRef = ECCB0000000000000000000D /* MainWindowViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECCB00000000000000000010 /* LGPlusApp-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LGPlusApp-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCB00000000000000000002 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		ECCB00000000000000000003 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		ECCB00000000000000000004 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		ECCB00000000000000000005 /* rtl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = rtl.framework; path = "System/Library/Frameworks/rtl.framework"; sourceTree = SDKROOT; };
+		ECCB00000000000000000006 /* Toffee.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Toffee.framework; path = "System/Library/Frameworks/Toffee.framework"; sourceTree = SDKROOT; };
+		ECCB00000000000000000007 /* Elements.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Elements.framework; path = "System/Library/Frameworks/Elements.framework"; sourceTree = SDKROOT; };
+		ECCB00000000000000000008 /* LGPlusButtonsViewFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LGPlusButtonsViewFramework.framework; path = "System/Library/Frameworks/LGPlusButtonsViewFramework.framework"; sourceTree = SDKROOT; };
+		ECCB00000000000000000009 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = "System/Library/Frameworks/CoreFoundation.framework"; sourceTree = SDKROOT; };
+		ECCB0000000000000000000A /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = "System/Library/Frameworks/UserNotifications.framework"; sourceTree = SDKROOT; };
+		ECCB0000000000000000000C /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "LaunchScreen.xib"; path = "/Users/JohnMoshakis/Documents/develop/Nougat/LGPlusApp/Resources/LaunchScreen.xib"; sourceTree = SOURCE_ROOT; };
+		ECCB0000000000000000000D /* MainWindowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "MainWindowViewController.xib"; path = "/Users/JohnMoshakis/Documents/develop/Nougat/LGPlusApp/MainWindowViewController.xib"; sourceTree = SOURCE_ROOT; };
+		ECCB0000000000000000000B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Images.xcassets"; path = "/Users/JohnMoshakis/Documents/develop/Nougat/LGPlusApp/Resources/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		ECCB0000000000000000000E /* Classes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; includeInIndex = 0; name = "Classes.h"; path = "LGPlusApp-UI.xcodeproj/Classes.h"; sourceTree = "<group>"; };
+		ECCB0000000000000000000F /* Classes.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; includeInIndex = 0; name = "Classes.m"; path = "LGPlusApp-UI.xcodeproj/Classes.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+/* Begin PBXFrameworksBuildPhase section */
+    EC12D20817C22C67006A4D91 /* Frameworks */ = {
+      isa = PBXFrameworksBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        ECCB00000000000000000002 /* CoreGraphics.framework */,
+        ECCB00000000000000000003 /* Foundation.framework */,
+        ECCB00000000000000000004 /* UIKit.framework */,
+        ECCB00000000000000000005 /* rtl.framework */,
+        ECCB00000000000000000006 /* Toffee.framework */,
+        ECCB00000000000000000007 /* Elements.framework */,
+        ECCB00000000000000000008 /* LGPlusButtonsViewFramework.framework */,
+        ECCB00000000000000000009 /* CoreFoundation.framework */,
+        ECCB0000000000000000000A /* UserNotifications.framework */,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXFrameworksBuildPhase section */
+/* Begin PBXGroup section */
+    EC12D20217C22C67006A4D91 = {
+      isa = PBXGroup;
+      children = (
+        ECCBA04517C22CBC00E46CF9 /* XIBs & Storyboards */,
+        EC430FBA1987CCE700365C06 /* Asset Catalogs */,
+        ECCBA05017C22D1F00E46CF9 /* Generated Code */,
+        EC12D20D17C22C67006A4D91 /* Frameworks */,
+        EC12D20C17C22C67006A4D91 /* Products */,
+      );
+      sourceTree = "<group>";
+    };
+    EC12D20C17C22C67006A4D91 /* Products */ = {
+      isa = PBXGroup;
+      children = (
+        ECCB00000000000000000010 /* LGPlusApp-UI.app */,
+      );
+      name = Products;
+      sourceTree = "<group>";
+    };
+    EC12D20D17C22C67006A4D91 /* Frameworks */ = {
+      isa = PBXGroup;
+      children = (
+        ECCB00000000000000000002 /* CoreGraphics.framework */,
+        ECCB00000000000000000003 /* Foundation.framework */,
+        ECCB00000000000000000004 /* UIKit.framework */,
+        ECCB00000000000000000005 /* rtl.framework */,
+        ECCB00000000000000000006 /* Toffee.framework */,
+        ECCB00000000000000000007 /* Elements.framework */,
+        ECCB00000000000000000008 /* LGPlusButtonsViewFramework.framework */,
+        ECCB00000000000000000009 /* CoreFoundation.framework */,
+        ECCB0000000000000000000A /* UserNotifications.framework */,
+      );
+      name = Frameworks;
+      sourceTree = "<group>";
+    };
+    ECCBA04517C22CBC00E46CF9 /* XIBs & Storyboards */ = {
+      isa = PBXGroup;
+      children = (
+        ECCB0000000000000000000C /* LaunchScreen.xib */,
+        ECCB0000000000000000000D /* MainWindowViewController.xib */,
+      );
+      name = "XIBs & Storyboards";
+      sourceTree = "<group>";
+    };
+    EC430FBA1987CCE700365C06 /* Asset Catalogs */ = {
+      isa = PBXGroup;
+      children = (
+        ECCB0000000000000000000B /* Images.xcassets */,
+      );
+      name = "Asset Catalogs";
+      sourceTree = "<group>";
+    };
+    ECCBA05017C22D1F00E46CF9 /* Generated Code */ = {
+      isa = PBXGroup;
+      children = (
+        ECCB0000000000000000000E /* Classes.h */,
+        ECCB0000000000000000000F /* Classes.m */,
+      );
+      name = "Generated Code";
+      sourceTree = "<group>";
+    };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC12D20A17C22C67006A4D91 /* LGPlusApp-UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC12D23717C22C67006A4D91 /* Build configuration list for PBXNativeTarget "LGPlusApp-UI" */;
+			buildPhases = (
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LGPlusApp-UI";
+			productName = "LGPlusApp-UI";
+			productReference = ECCB00000000000000000010 /* LGPlusApp-UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECCB00000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					EC12D22517C22C67006A4D91 = {
+						TestTargetID = EC12D20A17C22C67006A4D91;
+					};
+				};
+			};
+			buildConfigurationList = EC12D20617C22C67006A4D91 /* Build configuration list for PBXProject "LGPlusApp-UI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+			en,
+			);
+			mainGroup = EC12D20217C22C67006A4D91;
+			productRefGroup = EC12D20C17C22C67006A4D91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			EC12D20A17C22C67006A4D91 /* LGPlusApp-UI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		EC12D23517C22C67006A4D91 /* Design */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "LGPlusApp-UI";
+				SDKROOT = macosx;
+				COMBINE_HIDPI_IMAGES = YES;
+			};
+			name = Design;
+		};
+		EC12D23817C22C67006A4D91 /* Design */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "LGPlusApp-UI";
+			};
+			name = Design;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC12D20617C22C67006A4D91 /* Build configuration list for PBXProject "LGPlusApp-UI" */ = {
+		isa = XCConfigurationList;
+		buildConfigurations = (
+			EC12D23517C22C67006A4D91 /* Design */,
+		);
+		defaultConfigurationIsVisible = 0;
+		defaultConfigurationName = Design;
+		};
+		EC12D23717C22C67006A4D91 /* Build configuration list for PBXNativeTarget "LGPlusApp-UI" */ = {
+		isa = XCConfigurationList;
+		buildConfigurations = (
+			EC12D23817C22C67006A4D91 /* Design */,
+		);
+		defaultConfigurationIsVisible = 0;
+		defaultConfigurationName = Design;
+		};
+/* End XCConfigurationList section */
+
+	};
+rootObject = ECCB00000000000000000001 /* Project object */;
+}
